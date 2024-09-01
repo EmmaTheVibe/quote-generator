@@ -29,7 +29,7 @@ export default function QuoteFetcher() {
     <div>
       <button onClick={fetchQuote}>Get Quote</button>
       <h1 className="qrt">{quote.text}</h1>
-      <h3>
+      <h3 className="auth">
         <em> -- {quote.author}</em>
       </h3>
     </div>
